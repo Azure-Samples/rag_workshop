@@ -6,7 +6,7 @@ langchain-text-splitters==0.2.4
 openai==1.75.0
 tiktoken==0.7.0
 pandas==2.2.2
-Flask==3.1.0
+Flask==3.1.1
 azure-ai-evaluation
 openpyxl
 streamlit
