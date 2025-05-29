@@ -10,3 +10,4 @@ Flask==3.1.0
 azure-ai-evaluation
 openpyxl
 streamlit
+azure-storage-blob

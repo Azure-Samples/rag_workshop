@@ -245,6 +245,7 @@ def generate_answer_with_history(aoai_client, aoai_deployment_name, valid_chunks
     for q_a in history:
         messages.append({"role": "user", "content": q_a["question"]})
         messages.append({"role": "assistant", "content": q_a["answer"]})
+    
     messages.append({"role": "user", "content": f"**Knowledge base:**\nSections: {valid_chunks}\n**Question:** {question}\nFinal Response:"})
 
     print(f"\nmessages: {json.dumps(messages, indent=2)}\n")
