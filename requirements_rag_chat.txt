@@ -1,6 +1,6 @@
 azure-ai-documentintelligence==1.0.1
 azure-search-documents
-python-dotenv==1.0.0
+python-dotenv==1.2.2
 openai==1.75.0
 tiktoken
 streamlit
